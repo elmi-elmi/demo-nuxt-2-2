@@ -15,6 +15,7 @@ export default {
     onLoadUser() {
       this.$router.push("/first/" + this.userId);
     }
-  }
+  },
+  layout: "first"
 };
 </script>
