@@ -1,16 +1,3 @@
 <template>
-  <div>
-    <input type="text" placeholder="your route" v-model="userId" />
-    <button @click="onLoadUser">Request</button>
-  </div>
+  <p>Please enter an id an click the button.</p>
 </template>
-
-<script>
-export default {
-  methods: {
-    onLoadUser() {
-      this.$router.push("/first/" + this.userId);
-    }
-  }
-};
-</script>
