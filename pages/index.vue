@@ -1,5 +1,7 @@
 <template>
-  <nuxt-link to="first">first</nuxt-link>
+  <div>
+    <nuxt-link to="first">first</nuxt-link>
+  </div>
 </template>
 
 <script>
